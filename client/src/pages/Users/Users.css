@@ -1,0 +1,37 @@
+.user-list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.user-profile-link {
+  text-decoration: none;
+}
+.user-box {
+  display: flex;
+  flex-direction: row;
+  /* padding: 1rem; */
+  /* margin: auto; */
+  width: 100px;
+  /* border: 2px solid blue; */
+  margin: 1rem;
+  text-decoration: none;
+}
+
+.user-box .first-letter {
+  text-decoration: none;
+  padding: 10px 13px;
+  background-color: #d3d3d3;
+  border-radius: 50%;
+  color: black;
+}
+
+.user-box > h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0.2rem;
+  color: black;
+}

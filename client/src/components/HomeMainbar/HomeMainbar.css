@@ -1,0 +1,118 @@
+.main-bar {
+  width: calc(100% - 300px - 24px);
+  float: left;
+  margin: 25px 0px;
+  padding: 0;
+  font-size: 15px;
+}
+
+.main-bar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ask-ques {
+  /* background-color: #009dff;
+  color: white;
+  text-decoration: none;
+  border-radius: 0.2rem;
+  margin-right: 1rem; */
+  /* padding: 10px 15px; */
+  padding: 0.5rem 0.5rem;
+  margin-left: 1rem;
+  border-radius: 4px;
+  background-color: #009dff;
+  color: white;
+  border: none;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.ask-ques:hover {
+  background-color: #0086d8;
+}
+
+.display-ques-container {
+  min-height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fdf7e2;
+  border-bottom: 1px solid rgb(212, 212, 212);
+}
+
+.display-ques-container .display-votes {
+  padding: 10px;
+}
+
+.display-ques-container .display-votes p {
+  margin: 0%;
+  text-align: center;
+}
+
+.display-ques-details {
+  flex-grow: 1;
+  padding: 10px;
+  margin: 0%;
+}
+
+.question-title {
+  text-decoration: none;
+  color: #037ecb;
+  transition: 0.2s;
+}
+
+.question-title:hover {
+  color: #009dff;
+}
+
+.display-ques-details p {
+  padding: 0.1rem;
+}
+
+.display-tags-time {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.display-tags {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0.1rem;
+}
+
+.display-tags > p {
+  background-color: rgb(210, 220, 244);
+  border-radius: 0.2rem;
+  padding: 0.2rem 0.2rem;
+  margin: 3px 6px 3px 0;
+  /* padding: 2px; */
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1020px) {
+  .main-bar {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .display-question-container .display-votes {
+    padding: 10px;
+  }
+  .main-bar-header {
+    font-size: 0.8rem;
+  }
+  .ask-ques {
+    font-size: 0.8rem;
+  }
+}
