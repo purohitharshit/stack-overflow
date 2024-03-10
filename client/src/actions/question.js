@@ -34,7 +34,7 @@ export const postAnswer = (answerData) => async (dispatch) => {
       userId
     );
     dispatch({ type: "POST_ANSWER", payload: data });
-    dispatch(fetchAllQuestions);
+    dispatch(fetchAllQuestions());
   } catch (error) {
     console.log(error);
   }

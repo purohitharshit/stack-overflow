@@ -28,7 +28,7 @@ const QuestionDetail = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const location = useLocation();
-  const url = "http://localhost:3000";
+  const url = "https://stack-overflow-8wca.onrender.com";
 
   const handlePostAnswer = (e, answerLength) => {
     e.preventDefault();
